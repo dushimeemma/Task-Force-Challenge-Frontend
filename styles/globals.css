@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './font.bold.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.font-light {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.h-60vh {
+  height: 61vh;
+}
+.position {
+  position: relative;
+  top: 166px;
+  left: 1348px;
+  width: 200px;
+  height: 220px;
+  border: 0;
+}
+.position:focus {
+  border: 0;
+}
+.h-80vh {
+  height: 92vh;
+}
+.background {
+  background-image: url('../public//sanitizor.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h-23 {
+  height: 23.5rem;
+}
+.w-200 {
+  width: 400px;
+  height: 200px;
+  margin-top: 20rem;
+}
